@@ -1,1 +1,29 @@
+# Dependency directories
 node_modules/
+# These paths assume you're using npm. Modify as needed for other package managers like Yarn.
+npm-debug.log
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+
+# Build output
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+
+# OS generated files
+Thumbs.db
+.DS_Store
