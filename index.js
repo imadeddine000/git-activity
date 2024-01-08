@@ -1,6 +1,9 @@
 import axios from "axios"
+import dotenv from 'dotenv';
+const { config } = dotenv;
+config();
 
-const token = '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';
+const token = process.env.GITHUB_TOKEN;
 axios.defaults.headers.common['Authorization'] = `token ${token}`;
 axios.defaults.headers.common['X-GitHub-Api-Version'] = '2022-11-28';
 
